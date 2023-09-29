@@ -4,34 +4,38 @@ html {
 
 .cell {
     font-family: "Sahel";
+    font-size: 14pt;
+    margin-top: 5mm;
+    margin-bottom: 5mm;
+    line-height: 200%;
+    margin-right: 20mm;
+    text-align: justify;
+}
+
+.rtl-align {
+    direction: rtl;
     text-align: right;
-    font-size: 16pt;
 }
 
 .cell h2 {
-    color: #1E90FF; /* Dodger Blue */
+    color: #1E90FF;
+    /* Dodger Blue */
     border-bottom: 2px solid #1E90FF;
     font-size: 20pt;
-    padding: 0.5em;
+    /* padding: 0.5em; */
     font-weight: bold;
 }
 
 .cell ul {
     padding-left: 0;
-    font-size: 18pt;
+    font-size: 16pt;
 }
 
 .cell ul li {
     text-align: right;
     direction: rtl;
     position: relative;
-    padding-right: 2em;
-}
-
-.cell ul li::before {
-    content: "•";
-    position: absolute;
-    right: 1em;
+    /* padding-right: 2em; */
 }
 
 .title {
@@ -39,7 +43,8 @@ html {
     text-align: center;
     margin-top: 5mm;
     margin-bottom: 10mm;
-    color: #1E90FF; /* Dodger Blue */
+    color: #1E90FF;
+    /* Dodger Blue */
 }
 
 .title div {
@@ -49,10 +54,13 @@ html {
 
 .title div:last-child {
     font-size: 14pt;
-    color: #20B2AA; /* Light Sea Green */
+    color: #20B2AA;
+    /* Light Sea Green */
 }
 
 /* Math elements in LTR direction */
-.cell p, .cell div, .cell span {
+.cell p,
+.cell div,
+.cell span {
     direction: ltr;
 }
