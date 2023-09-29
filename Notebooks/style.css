@@ -1,0 +1,40 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.cell {
+    font-family: "XB Niloofar";
+    text-align: right;
+    font-size: 16pt;
+}
+
+.cell h2 {
+    color: red;
+    border-bottom: 2px solid red;
+    font-size: 20pt;
+    padding: 0.5em;
+    font-weight: bold;
+}
+
+.cell ul {
+    padding-left: 0;
+    font-size: 18pt;
+}
+
+.cell ul li {
+    text-align: right;
+    direction: rtl;
+    position: relative;
+    padding-right: 2em;
+}
+
+.cell ul li::before {
+    content: "•";
+    position: absolute;
+    right: 1em;
+}
+
+/* Math elements in LTR direction */
+.cell p, .cell div, .cell span {
+    direction: ltr;
+}
