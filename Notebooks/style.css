@@ -3,14 +3,14 @@ html {
 }
 
 .cell {
-    font-family: "XB Niloofar";
+    font-family: "Sahel";
     text-align: right;
     font-size: 16pt;
 }
 
 .cell h2 {
-    color: red;
-    border-bottom: 2px solid red;
+    color: #1E90FF; /* Dodger Blue */
+    border-bottom: 2px solid #1E90FF;
     font-size: 20pt;
     padding: 0.5em;
     font-weight: bold;
@@ -32,6 +32,24 @@ html {
     content: "•";
     position: absolute;
     right: 1em;
+}
+
+.title {
+    font-family: "Sahel";
+    text-align: center;
+    margin-top: 5mm;
+    margin-bottom: 10mm;
+    color: #1E90FF; /* Dodger Blue */
+}
+
+.title div {
+    font-size: 18pt;
+    margin-bottom: 5mm;
+}
+
+.title div:last-child {
+    font-size: 14pt;
+    color: #20B2AA; /* Light Sea Green */
 }
 
 /* Math elements in LTR direction */
